@@ -24,16 +24,3 @@ function playTypingAnimation(text) {
 
 // Start the typing animation loop
 playTypingAnimation(typingTexts[0]);
-
-
-
-// toggle
-const toggle = document.getElementById("navbarSupportedContente");
-$(document).ready(function(){
-  $("toggle").toggle(100,function(){
-    $(".navbar-nav").css("display", "block");
-  }
-  , function(){
-    $(".navbar-nav").css("display", "none");
-  });
-});
